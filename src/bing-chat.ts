@@ -304,7 +304,7 @@ export class BingChat {
           'azsdk-js-api-client-factory/1.0.0-beta.1 core-rest-pipeline/1.10.0 OS/MacIntel',
         cookie
       },
-      referrer: 'https://www.bing.com/search',
+      referrer: 'https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,noheader&udsframed=1&form=SHORUN&shellsig=bd85df62505fe47f03115e4625b41104419638fc&darkschemeovr=1',
       referrerPolicy: 'origin-when-cross-origin',
       body: null,
       method: 'GET',
