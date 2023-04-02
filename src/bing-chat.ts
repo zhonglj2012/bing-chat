@@ -279,7 +279,7 @@ export class BingChat {
       ? this._cookie
       : `_U=${this._cookie}`
 
-    return fetch('https://www.bing.com/turing/conversation/create', {
+    return fetch('https://edgeservices.bing.com/edgesvc/turing/conversation/create', {
       headers: {
         accept: 'application/json',
         'accept-language': 'en-US,en;q=0.9',
